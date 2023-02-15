@@ -1,3 +1,16 @@
+.home_container {
+  display: none;
+}
+
+.s600 {
+  height: 100vh;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 600px) {
   .s600 {
     display: none;

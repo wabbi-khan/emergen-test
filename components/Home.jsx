@@ -2,12 +2,14 @@ import React from 'react';
 import css from '../styles/Home.module.css';
 import Image from 'next/image';
 import logo from '../public/assets/logo.png';
-import { AiOutlineDown } from 'react-icons/ai';
+// import { AiOutlineDown } from 'react-icons/ai';
 import GIF from '../public/assets/starting-quiz.gif';
 const Home = () => {
   return (
     <section>
-      <div className={css.s600}>screen size should be less than 600px</div>
+      <div className={css.s600}>
+        <h2>screen size should be less than 600px</h2>
+      </div>
       <div className={css.bgImg}>
         <div className={css.logo}>
           <Image src={logo} width={150} />
