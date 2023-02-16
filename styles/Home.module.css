@@ -63,6 +63,7 @@
   }
   .topHeading {
     width: 100%;
+    width: 100%;
     padding: 20px 0px;
     display: flex;
     margin: auto;
@@ -95,13 +96,5 @@
     /* justify-content: center; */
     /* align-items: center; */
     gap: 2rem;
-  }
-  .optionBtn {
-    background-color: #37533c;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    padding: 20px 40px;
-    font-size: 16px;
   }
 }

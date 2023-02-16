@@ -23,9 +23,9 @@ const QuizCom = ({ heading2, option1, option2, option3 }) => {
         </div>
         <div className={css.list}>
           <div className={css.heading2}> {heading2} </div>
-          <button className={css.optionBtn}> {option1} </button>
-          <button className={css.optionBtn}> {option2} </button>
-          <button className={css.optionBtn}> {option3} </button>
+          <button className="optionBtn"> {option1} </button>
+          <button className="optionBtn"> {option2} </button>
+          <button className="optionBtn"> {option3} </button>
           <button onClick={() => router.push('/')} className="button">
             Next
           </button>

@@ -31,6 +31,15 @@ body {
   text-decoration: none;
 }
 
+.optionBtn {
+  background-color: #37533c;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 600px) {
   /* ? Home screen */
   .s600 {
