@@ -7,6 +7,16 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  /* display: none; */
+}
+
+.s600 {
+  height: 100vh;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 
 .button {
@@ -18,4 +28,11 @@ body {
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  /* ? Home screen */
+  .s600 {
+    display: none;
+  }
 }

@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Home = () => {
   return (
     <section>
-      <div className={css.s600}>
+      <div className="s600">
         <h2>screen size should be less than 600px</h2>
       </div>
       <div className={css.bgImg}>
