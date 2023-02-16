@@ -3,6 +3,7 @@ import css from '../styles/Home.module.css';
 import Link from 'next/link';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import Router, { useRouter } from 'next/router';
+import ButtonCom from './ButtonCom';
 const QuizCom = ({ heading2, option1, option2, option3 }) => {
   const router = useRouter();
 
@@ -23,9 +24,9 @@ const QuizCom = ({ heading2, option1, option2, option3 }) => {
         </div>
         <div className={css.list}>
           <div className={css.heading2}> {heading2} </div>
-          <button className="optionBtn"> {option1} </button>
-          <button className="optionBtn"> {option2} </button>
-          <button className="optionBtn"> {option3} </button>
+          <ButtonCom btnText={option1} />
+          <ButtonCom btnText={option2} />
+          <ButtonCom btnText={option3} />
           <button onClick={() => router.push('/')} className="button">
             Next
           </button>

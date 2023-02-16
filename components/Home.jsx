@@ -4,7 +4,7 @@ import Image from 'next/image';
 import logo from '../public/assets/logo.png';
 // import { AiOutlineDown } from 'react-icons/ai';
 import GIF from '../public/assets/starting-quiz.gif';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 const Home = () => {
@@ -23,9 +23,7 @@ const Home = () => {
           <div className={css.gif}>
             <Image src={GIF} />
           </div>
-          {/* <div className={css.icon}>
-            <AiOutlineDown />
-          </div> */}
+
           <button
             onClick={() => router.push('/QuizListScreen')}
             className="button"
