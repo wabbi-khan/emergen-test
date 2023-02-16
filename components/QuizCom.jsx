@@ -2,7 +2,10 @@ import React from 'react';
 import css from '../styles/Home.module.css';
 import Link from 'next/link';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
+import Router, { useRouter } from 'next/router';
 const QuizCom = ({ heading2, option1, option2, option3 }) => {
+  const router = useRouter();
+
   return (
     <>
       <div className="s600">
@@ -11,7 +14,7 @@ const QuizCom = ({ heading2, option1, option2, option3 }) => {
       <div className={css.QuizListScreen}>
         <div className={css.topHeading}>
           <div>
-            <AiOutlineArrowLeft />
+            <AiOutlineArrowLeft onClick={() => Router.back()} />
           </div>
           <div>📋 Understanding your sleep profile</div>
         </div>
@@ -23,9 +26,9 @@ const QuizCom = ({ heading2, option1, option2, option3 }) => {
           <button className={css.optionBtn}> {option1} </button>
           <button className={css.optionBtn}> {option2} </button>
           <button className={css.optionBtn}> {option3} </button>
-          <Link href={'/'} className="button">
+          <button onClick={() => router.push('/')} className="button">
             Next
-          </Link>
+          </button>
         </div>
       </div>
     </>

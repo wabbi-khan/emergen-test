@@ -5,7 +5,11 @@ import logo from '../public/assets/logo.png';
 // import { AiOutlineDown } from 'react-icons/ai';
 import GIF from '../public/assets/starting-quiz.gif';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 const Home = () => {
+  const router = useRouter();
+
   return (
     <section>
       <div className="s600">
@@ -22,9 +26,12 @@ const Home = () => {
           {/* <div className={css.icon}>
             <AiOutlineDown />
           </div> */}
-          <Link href={'/QuizListScreen'} className={'button'}>
-            start
-          </Link>
+          <button
+            onClick={() => router.push('/QuizListScreen')}
+            className="button"
+          >
+            Start
+          </button>
         </div>
       </div>
     </section>

@@ -23,6 +23,7 @@ body {
   background-color: #de8f6e;
   color: white;
   font-size: 25px;
+  border: none;
   text-transform: capitalize;
   padding: 20px 90px;
   border-radius: 50px;
