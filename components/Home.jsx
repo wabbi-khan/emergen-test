@@ -4,6 +4,7 @@ import Image from 'next/image';
 import logo from '../public/assets/logo.png';
 // import { AiOutlineDown } from 'react-icons/ai';
 import GIF from '../public/assets/starting-quiz.gif';
+import Link from 'next/link';
 const Home = () => {
   return (
     <section>
@@ -21,7 +22,9 @@ const Home = () => {
           {/* <div className={css.icon}>
             <AiOutlineDown />
           </div> */}
-          <div className={css.button}>start</div>
+          <Link href={'/QuizListScreen'} className={'button'}>
+            start
+          </Link>
         </div>
       </div>
     </section>

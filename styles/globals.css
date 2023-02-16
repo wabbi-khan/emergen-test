@@ -8,3 +8,14 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.button {
+  background-color: #de8f6e;
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 20px 90px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
