@@ -1,0 +1,11 @@
+
+[{
+    "heading": "What is your sleep goal?",
+    "options":["Falling asleep quicker", "Staying asleep (or falling back asleep after waking)", "Both"] 
+}, {
+    "heading": "How frequently do you wake up in the middle of the night?",
+    "options": ["Every Night", "Multiple times a week", "Once a week", "Less than a week"]
+}, {
+    "heading": "Rate your difficulty falling asleep in the past week.",
+    "options": ["None", "Mild", "Moderate", "Severe", "Very Severe"]
+}]

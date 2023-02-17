@@ -1,0 +1,15 @@
+
+[{
+    "type": "HOME"
+}, {
+    "type": "QUIZ",
+    "quizIndex": 0
+}, {
+    "type": "QUIZ",
+    "quizIndex": 1
+}, {
+    "type": "INTRO"
+}, {
+    "type": "QUIZ",
+    "quizIndex": 2
+}]
