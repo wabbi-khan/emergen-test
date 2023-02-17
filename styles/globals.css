@@ -29,6 +29,7 @@ body {
   border-radius: 50px;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .optionBtn {
@@ -39,6 +40,7 @@ body {
   padding: 20px 40px;
   font-size: 14px;
   text-align: center;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {

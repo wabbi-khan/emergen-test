@@ -1,11 +1,71 @@
-
-[{
+[
+  {
     "heading": "What is your sleep goal?",
-    "options":["Falling asleep quicker", "Staying asleep (or falling back asleep after waking)", "Both"] 
-}, {
+    "options": [
+      "Falling asleep quicker",
+      "Staying asleep (or falling back asleep after waking)",
+      "Both"
+    ]
+  },
+  {
     "heading": "How frequently do you wake up in the middle of the night?",
-    "options": ["Every Night", "Multiple times a week", "Once a week", "Less than a week"]
-}, {
+    "options": [
+      "Every Night",
+      "Multiple times a week",
+      "Once a week",
+      "Less than a week"
+    ]
+  },
+  {
     "heading": "Rate your difficulty falling asleep in the past week.",
     "options": ["None", "Mild", "Moderate", "Severe", "Very Severe"]
-}]
+  },
+  {
+    "heading": "Rate your difficulty staying asleep in the past week.",
+    "options": ["None", "Mild", "Moderate", "Severe", "Very Severe"]
+  },
+  {
+    "heading": "Rate your problems with waking up too early in the past week.",
+    "options": ["None", "Mild", "Moderate", "Severe", "Very Severe"]
+  },
+  {
+    "heading": "How satisfied/ dissatisfied are you with your sleep pattern in the last 2 weeks?",
+    "options": [
+      "Very Satisfied",
+      "Satisfied",
+      "Moderately Satisfied",
+      "Dissatisfied",
+      "Very Dissatisfied"
+    ]
+  },
+  {
+    "heading": "How noticeable to others do you think your sleep problem is in terms of impairing the quality of your life?",
+    "options": [
+      "Not at all notceable",
+      "A little",
+      "SomeWhat",
+      "Much",
+      "Very much noticeable"
+    ]
+  },
+  {
+    "heading": "How worried/ distressed are you about your current sleep problem?",
+    "options": [
+      "Not at all worried",
+      "A little",
+      "SomeWhat",
+      "Much",
+      "Very much worried"
+    ]
+  },
+  {
+    "heading": "To what extent do you consider your sleep problem to interfere with your daily functioning (e.g. ability to function at work) in the last 2 weeks?",
+    "options": [
+      "Not at all Interfering",
+      "A little",
+      "SomeWhat",
+      "Much",
+      "Very much interfering"
+    ]
+  }
+]

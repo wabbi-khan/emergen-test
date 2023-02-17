@@ -1,15 +1,48 @@
-
-[{
+[
+  {
     "type": "HOME"
-}, {
+  },
+  {
     "type": "QUIZ",
     "quizIndex": 0
-}, {
+  },
+  {
     "type": "QUIZ",
     "quizIndex": 1
-}, {
+  },
+  {
     "type": "INTRO"
-}, {
+  },
+
+  {
     "type": "QUIZ",
     "quizIndex": 2
-}]
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 3
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 4
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 5
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 6
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 7
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 8
+  },
+  {
+    "type": "CLINICALLY"
+  }
+]

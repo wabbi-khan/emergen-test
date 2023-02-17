@@ -1,11 +1,10 @@
-import React from "react";
-import logo from "../public/assets/logo.png";
-import css from "../styles/Home.module.css";
-import GIF from "../public/assets/starting-quiz.gif";
-import QuizCom from "../components/QuizCom";
-import Image from "next/image";
-import { SCREEN_TYPES, useAppContext } from "../context/AppContext";
-
+import React from 'react';
+import logo from '../public/assets/logo.png';
+import css from '../styles/Home.module.css';
+import GIF from '../public/assets/starting-quiz.gif';
+import QuizCom from '../components/QuizCom';
+import Image from 'next/image';
+import { SCREEN_TYPES, useAppContext } from '../context/AppContext';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
@@ -39,7 +38,14 @@ const QuizListScreen = () => {
       ) : null}
 
       {pageState.screenType === SCREEN_TYPES.QUIZ ? (
-        <QuizCom heading={"What is your sleep goal?"} options={["Falling asleep quicker", "Staying asleep (or falling back asleep after waking)", "Both"]} />
+        <QuizCom
+          heading={'What is your sleep goal?'}
+          options={[
+            'Falling asleep quicker',
+            'Staying asleep (or falling back asleep after waking)',
+            'Both',
+          ]}
+        />
       ) : null}
     </>
   );
