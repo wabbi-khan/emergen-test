@@ -75,5 +75,9 @@
   {
     "heading": "check box screen 2",
     "options": ["check box"]
+  },
+  {
+    "heading": "Sex and hormones impact how you sleep / What sex best describes you?",
+    "options": ["Male", "Female", "Other"]
   }
 ]
