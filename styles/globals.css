@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-bg-color: #37533c;
+  --font-green: #6fcf97;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   /* display: none; */

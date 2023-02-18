@@ -1,11 +1,19 @@
-import { createContext, ReactNode, useContext, useEffect, useMemo, useState } from "react";
-import { parseURLParams } from "./AppContext.helper";
-import data from "../data/quizes.json";
+import {
+  createContext,
+  ReactNode,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
+import { parseURLParams } from './AppContext.helper';
+import data from '../data/quizes.json';
 
 export const SCREEN_TYPES = {
-  HOME: "HOME",
-  QUIZ: "QUIZ",
-  INTRO: "INTRO",
+  HOME: 'HOME',
+  QUIZ: 'QUIZ',
+  INTRO: 'INTRO',
+  CLINICALLY: 'CLINICALLY',
 };
 
 // Page State =============================
@@ -19,10 +27,10 @@ interface IPageState {
   screenIndex: number;
 }
 const defaultPageState: IPageState = {
-  utm_term: "",
-  gclid: "",
-  ignore: "",
-  promo: "",
+  utm_term: '',
+  gclid: '',
+  ignore: '',
+  promo: '',
 
   quizIndex: 0,
   screenIndex: 0,
