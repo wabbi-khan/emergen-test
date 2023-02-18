@@ -15,6 +15,7 @@ export const SCREEN_TYPES = {
   INTRO: 'INTRO',
   CLINICALLY: 'CLINICALLY',
   GRAPH: 'GRAPH',
+  LOCATION: 'LOCATION',
 };
 
 // Page State =============================

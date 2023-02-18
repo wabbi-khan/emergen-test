@@ -9,13 +9,13 @@ import { SCREEN_TYPES, useAppContext } from '../context/AppContext';
 import IntroScreen from '../components/Screens/Intro';
 import ClinicallyScreen from '../components/Screens/Clinically';
 import GraphScreen from '../components/Screens/Graph';
+import LocationScreen from '../components/Screens/Location';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
   return (
     <>
       {/* <ClinicallyScreen /> */}
-
       {screens[pageState.screenIndex].type === SCREEN_TYPES.HOME ? (
         <section>
           <div className="s600">
@@ -42,12 +42,10 @@ const QuizListScreen = () => {
           </div>
         </section>
       ) : null}
-
       {/* Add Intro Screen Component Here */}
       {screens[pageState.screenIndex].type === SCREEN_TYPES.INTRO ? (
         <IntroScreen />
       ) : null}
-
       {screens[pageState.screenIndex].type === SCREEN_TYPES.QUIZ ? (
         <QuizCom
           heading={'What is your sleep goal?'}
@@ -57,9 +55,11 @@ const QuizListScreen = () => {
       {screens[pageState.screenIndex].type === SCREEN_TYPES.CLINICALLY ? (
         <ClinicallyScreen />
       ) : null}
-
       {screens[pageState.screenIndex].type === SCREEN_TYPES.GRAPH ? (
         <GraphScreen />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.LOCATION ? (
+        <LocationScreen />
       ) : null}
     </>
   );

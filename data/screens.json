@@ -55,5 +55,8 @@
   },
   {
     "type": "GRAPH"
+  },
+  {
+    "type": "LOCATION"
   }
 ]
