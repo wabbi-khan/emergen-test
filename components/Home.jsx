@@ -8,6 +8,7 @@ import screens from '../data/screens.json';
 import { SCREEN_TYPES, useAppContext } from '../context/AppContext';
 import IntroScreen from '../components/Screens/Intro';
 import ClinicallyScreen from '../components/Screens/Clinically';
+import GraphScreen from '../components/Screens/Graph';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
@@ -55,6 +56,10 @@ const QuizListScreen = () => {
       ) : null}
       {screens[pageState.screenIndex].type === SCREEN_TYPES.CLINICALLY ? (
         <ClinicallyScreen />
+      ) : null}
+
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.GRAPH ? (
+        <GraphScreen />
       ) : null}
     </>
   );

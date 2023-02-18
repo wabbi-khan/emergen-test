@@ -67,5 +67,13 @@
       "Much",
       "Very much interfering"
     ]
+  },
+  {
+    "heading": "check box screen 1",
+    "options": ["check box"]
+  },
+  {
+    "heading": "check box screen 2",
+    "options": ["check box"]
   }
 ]

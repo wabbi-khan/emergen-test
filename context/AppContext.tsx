@@ -14,6 +14,7 @@ export const SCREEN_TYPES = {
   QUIZ: 'QUIZ',
   INTRO: 'INTRO',
   CLINICALLY: 'CLINICALLY',
+  GRAPH: 'GRAPH',
 };
 
 // Page State =============================

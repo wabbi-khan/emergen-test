@@ -44,5 +44,16 @@
   },
   {
     "type": "CLINICALLY"
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 9
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 10
+  },
+  {
+    "type": "GRAPH"
   }
 ]
