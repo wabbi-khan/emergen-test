@@ -97,7 +97,7 @@
     padding-top: 30px;
     flex-direction: column;
     padding: 30px 30px 0px 30px;
-    gap: 2rem;
+    gap: 1rem;
   }
   /* ========= IntroScreen ======== */
   .IntroScreen {
@@ -181,5 +181,47 @@
     align-items: center;
     gap: 2rem;
     font-size: 18px;
+  }
+  /* ====== inout time screen ======= */
+  .InputFiled {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+    padding: 10px 0px;
+  }
+  .InputFiled input {
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+  /* ====== average time screen ====== */
+  .averageTimeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .averageTimeContent p {
+    padding: 5px 0px;
+  }
+  .time {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .time svg {
+    font-size: 50px;
+  }
+  .time h2 {
+    font-size: 40px;
+    color: #7b91dd;
+  }
+  /* ========= input time screen 2 */
+  .heading2 p {
+    padding: 10px 0px;
   }
 }

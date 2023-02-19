@@ -10,6 +10,11 @@ import IntroScreen from '../components/Screens/Intro';
 import ClinicallyScreen from '../components/Screens/Clinically';
 import GraphScreen from '../components/Screens/Graph';
 import LocationScreen from '../components/Screens/Location';
+import InputTimeScreen from './Screens/InputTime';
+import AverageTimeScreen from './Screens/AverageTime';
+import InputTime2 from './Screens/InputTime2';
+import InputTime3 from './Screens/InputTime3';
+import AverageTime2 from './Screens/AverageTime2';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
@@ -60,6 +65,21 @@ const QuizListScreen = () => {
       ) : null}{' '}
       {screens[pageState.screenIndex].type === SCREEN_TYPES.LOCATION ? (
         <LocationScreen />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.INPUTTIME ? (
+        <InputTimeScreen />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.AVERAGETIME ? (
+        <AverageTimeScreen />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.INPUTTIME2 ? (
+        <InputTime2 />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.INPUTTIME3 ? (
+        <InputTime3 />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.AVERAGETIME2 ? (
+        <AverageTime2 />
       ) : null}
     </>
   );

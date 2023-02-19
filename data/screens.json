@@ -62,5 +62,24 @@
   {
     "type": "QUIZ",
     "quizIndex": 11
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 12
+  },
+  {
+    "type": "INPUTTIME"
+  },
+  {
+    "type": "AVERAGETIME"
+  },
+  {
+    "type": "INPUTTIME2"
+  },
+  {
+    "type": "INPUTTIME3"
+  },
+  {
+    "type": "AVERAGETIME2"
   }
 ]
