@@ -21,6 +21,8 @@ export const SCREEN_TYPES = {
   INPUTTIME2: 'INPUTTIME2',
   INPUTTIME3: 'INPUTTIME3',
   AVERAGETIME2: 'AVERAGETIME2',
+  GRAPH2: 'GRAPH2',
+  HARVARD: 'HARVARD',
 };
 
 // Page State =============================

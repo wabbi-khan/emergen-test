@@ -83,5 +83,36 @@
   {
     "heading": "What is your age?",
     "options": ["20s", "30s", "40s", "50s", "60s", "+70"]
+  },
+  {
+    "heading": "How long have you had your sleep problems?",
+    "options": [
+      "1 month or less",
+      "1-3 months",
+      "3-6 months",
+      "6 months to a year",
+      "Over a year"
+    ]
+  },
+  {
+    "heading": "Do you get stressed during the evening while thinking about having to go bed?",
+    "options": ["Yes frequently", "Yes sometime", "No"]
+  },
+  {
+    "heading": "Do you wake up in the middle of the night and are kept awake by feelings of frustration, anxiety, or anger about waking up?",
+    "options": ["Yes frequently", "Yes sometime", "No"]
+  },
+  {
+    "heading": "Does your mind race with thoughts while you’re in bed (e.g., thinking about a major event tomorrow, unfinished todos)?",
+    "options": ["Yes frequently", "Yes sometime", "No"]
+  },
+  {
+    "heading": "When in bed, do you ever tell yourself that if you don’t get 7-8 hours of sleep tonight, you’ll be a wreck tomorrow?",
+    "options": ["Yes frequently", "Yes sometime", "No"]
+  },
+
+  {
+    "heading": "check box screen 3",
+    "options": ["check box"]
   }
 ]

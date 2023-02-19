@@ -15,6 +15,8 @@ import AverageTimeScreen from './Screens/AverageTime';
 import InputTime2 from './Screens/InputTime2';
 import InputTime3 from './Screens/InputTime3';
 import AverageTime2 from './Screens/AverageTime2';
+import Graph2 from './Screens/Graph2';
+import Harvard from './Screens/Harvard';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
@@ -80,6 +82,12 @@ const QuizListScreen = () => {
       ) : null}{' '}
       {screens[pageState.screenIndex].type === SCREEN_TYPES.AVERAGETIME2 ? (
         <AverageTime2 />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.GRAPH2 ? (
+        <Graph2 />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.HARVARD ? (
+        <Harvard />
       ) : null}
     </>
   );

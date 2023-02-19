@@ -81,5 +81,35 @@
   },
   {
     "type": "AVERAGETIME2"
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 13
+  },
+  {
+    "type": "GRAPH2"
+  },
+  {
+    "type": "HARVARD"
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 14
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 15
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 16
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 17
+  },
+  {
+    "type": "QUIZ",
+    "quizIndex": 18
   }
 ]

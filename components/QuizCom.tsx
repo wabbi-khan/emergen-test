@@ -1,12 +1,12 @@
-import React from "react";
-import css from "../styles/Home.module.css";
-import Link from "next/link";
-import { AiOutlineArrowLeft } from "react-icons/ai";
-import Router, { useRouter } from "next/router";
-import ButtonCom from "./ButtonCom";
-import quizes from "../data/quizes.json";
-import screens from "../data/screens.json";
-import { useAppContext } from "@/context/AppContext";
+import React from 'react';
+import css from '../styles/Home.module.css';
+import Link from 'next/link';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+import Router, { useRouter } from 'next/router';
+import ButtonCom from './ButtonCom';
+import quizes from '../data/quizes.json';
+import screens from '../data/screens.json';
+import { useAppContext } from '@/context/AppContext';
 
 interface QuizComTypes {
   heading: string;
@@ -34,13 +34,18 @@ const QuizCom = ({ heading, options = [] }: QuizComTypes) => {
           <div className={css.bar}></div>
         </div>
         <div className={css.list}>
-          <div className={css.heading2}> {quizes[screens[pageState.screenIndex].quizIndex || 0].heading} </div>
-          {quizes[screens[pageState.screenIndex].quizIndex || 0].options.map((el) => (
-            <ButtonCom btnText={el} />
-          ))}
+          <div className={css.heading2}>
+            {' '}
+            {quizes[screens[pageState.screenIndex].quizIndex || 0].heading}{' '}
+          </div>
+          {quizes[screens[pageState.screenIndex].quizIndex || 0].options.map(
+            (el) => (
+              <ButtonCom btnText={el} />
+            )
+          )}
           <button
             onClick={() => {
-              pageMethods.submitQuiz("");
+              pageMethods.submitQuiz('');
             }}
             className="button"
           >
