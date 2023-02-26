@@ -111,5 +111,11 @@
   {
     "type": "QUIZ",
     "quizIndex": 18
+  },
+  {
+    "type": "INTRO2"
+  },
+  {
+    "type": "ANALYZING"
   }
 ]

@@ -23,6 +23,8 @@ export const SCREEN_TYPES = {
   AVERAGETIME2: 'AVERAGETIME2',
   GRAPH2: 'GRAPH2',
   HARVARD: 'HARVARD',
+  INTRO2: 'INTRO2',
+  ANALYZING: 'ANALYZING',
 };
 
 // Page State =============================

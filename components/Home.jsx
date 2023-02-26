@@ -17,6 +17,8 @@ import InputTime3 from './Screens/InputTime3';
 import AverageTime2 from './Screens/AverageTime2';
 import Graph2 from './Screens/Graph2';
 import Harvard from './Screens/Harvard';
+import Intro2 from './Screens/Intro2';
+import Analyzing from './Screens/Analyzing';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
@@ -88,6 +90,12 @@ const QuizListScreen = () => {
       ) : null}{' '}
       {screens[pageState.screenIndex].type === SCREEN_TYPES.HARVARD ? (
         <Harvard />
+      ) : null}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.INTRO2 ? (
+        <Intro2 />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.ANALYZING ? (
+        <Analyzing />
       ) : null}
     </>
   );
