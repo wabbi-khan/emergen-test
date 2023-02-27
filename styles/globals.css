@@ -48,6 +48,8 @@ body {
   cursor: pointer;
 }
 
+/* ===== Analyzing screen ====== */
+
 .circle-wrap {
   margin: 50px auto;
   width: 150px;
@@ -104,6 +106,8 @@ body {
     transform: rotate(135deg);
   }
 }
+
+/* ================================ */
 
 @media only screen and (max-width: 600px) {
   /* ? Home screen */

@@ -184,7 +184,6 @@
   /* ====== inout time screen ======= */
   .InputFiled {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     gap: 1rem;
     padding: 10px 0px;
@@ -231,5 +230,10 @@
   .harvardLogo img {
     height: 50px;
   }
-  /* ===== Analyzing screen ====== */
+  /* ==== Email screen ==== */
+  .InputFiledEmail input {
+    width: 80%;
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
 }

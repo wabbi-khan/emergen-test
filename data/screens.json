@@ -117,5 +117,8 @@
   },
   {
     "type": "ANALYZING"
+  },
+  {
+    "type": "SENDEMAIL"
   }
 ]

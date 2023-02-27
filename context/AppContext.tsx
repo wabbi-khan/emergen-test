@@ -25,6 +25,7 @@ export const SCREEN_TYPES = {
   HARVARD: 'HARVARD',
   INTRO2: 'INTRO2',
   ANALYZING: 'ANALYZING',
+  SENDEMAIL: 'SENDEMAIL',
 };
 
 // Page State =============================

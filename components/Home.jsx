@@ -19,6 +19,7 @@ import Graph2 from './Screens/Graph2';
 import Harvard from './Screens/Harvard';
 import Intro2 from './Screens/Intro2';
 import Analyzing from './Screens/Analyzing';
+import SendEmail from './Screens/SendEmail';
 const QuizListScreen = () => {
   const { pageDataSets, pageMethods, pageState } = useAppContext();
 
@@ -96,6 +97,9 @@ const QuizListScreen = () => {
       ) : null}{' '}
       {screens[pageState.screenIndex].type === SCREEN_TYPES.ANALYZING ? (
         <Analyzing />
+      ) : null}{' '}
+      {screens[pageState.screenIndex].type === SCREEN_TYPES.SENDEMAIL ? (
+        <SendEmail />
       ) : null}
     </>
   );
